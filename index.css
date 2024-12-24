@@ -15,7 +15,7 @@
     box-sizing: border-box;
   }
   a {
-    color: #33729e;
+    color: #7d30c5;
   }
   /* Remove default margin */
   html {
@@ -126,8 +126,8 @@
   }
   
   .imgca {
-    width: 60px;
-    height: 60px;
+    width: 150px;
+    height: 80px;
   }
   .nav {
     background-color: #000000;
@@ -146,7 +146,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 15, 128));
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(126, 48, 243));
     color: #000000;
     border-bottom: 0.5rem solid
   
@@ -236,8 +236,9 @@ background-color: #000;
   }
 
   .nav__title {
-    font-size:3rem;
-    font-weight: 9rem;
+    margin-bottom: .3rem;
+    font-size:2rem;
+    font-weight: 12rem;
     line-height:2.3rem;
     display: flex;
     align-items: center;
@@ -310,8 +311,8 @@ background-color: #000;
   .banner {
     min-height: 70vh; /* Adjusts the minimum height */
     background-image: 
-      linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-      url("./images/PHOTO-2024-12-09-09-03-39.jpg"); /* Adds gradient over the image */
+      linear-gradient(to bottom, rgba(83, 5, 219, 0.822), rgba(99, 15, 215, 0.6)), 
+      url("./images/D42A8E8D-FD1C-4D5B-9584-66371066BA34.JPEG"); /* Adds gradient over the image */
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay; /* Blends gradient with the image */
@@ -373,8 +374,8 @@ background-color: #000;
   .banner-contact {
     min-height: 100vh;
     background: 
-      linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), /* Black overlay */
-      url("./images/PHOTO-2024-12-09-09-03-39.jpg") no-repeat center center / cover; /* Background image */
+      linear-gradient(to bottom, rgba(21, 3, 58, 0.639), rgba(33, 6, 88, 0.639)), /* Black overlay */
+      url("./images/D42A8E8D-FD1C-4D5B-9584-66371066BA34.JPEG") no-repeat center center / cover; /* Background image */
     position: relative;
     overflow: hidden; /* Ensures pseudo-element stays within bounds */
     background-color: #000; /* Fallback color */
@@ -629,7 +630,7 @@ background-color: #000;
   /* Footer Styles */
   
   .footer {
-    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 15, 128));
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(126, 48, 243));
     color: #fff;
     border-bottom: 0.5rem solid
   }
